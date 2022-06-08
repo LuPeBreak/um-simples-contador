@@ -23,7 +23,11 @@
         keepGoingText.innerHTML = "Bora que voce consegue!";
         break;
       case 100:
-        keepGoingText.innerHTML = "PARABEEEENS continue clicando!";
+        keepGoingText.innerHTML = "PARABEEEENS continue clicando falta pouco!";
+        break;
+      case 1000:
+        keepGoingText.innerHTML =
+          "Ja parei de motivar a 900 clicks, porque continuou? foi esperto e usou um macro?( ou mudou o codigo? ) de toda forma ou voce persistiu ou pensou em como vencer PARABENS!";
         break;
     }
   });
@@ -35,7 +39,8 @@
     currentNumber.innerHTML = counter;
     switch (counter) {
       case 0:
-        keepGoingText.innerHTML = "Tente contar para cima primeiro! do chao nao passa";
+        keepGoingText.innerHTML =
+          "Tente contar para cima primeiro! do chao nao passa";
         break;
       case 10:
         keepGoingText.innerHTML = "Assim voce ta quase perdendo";
